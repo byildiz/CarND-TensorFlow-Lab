@@ -5,6 +5,32 @@
 
 We've prepared a Jupyter notebook that will guide you through the process of creating a single layer neural network in TensorFlow.
 
+## My Results
+### Configuring Parameters
+#### Batch Size:
+* e: 1, b: 2000, l: 0.01 => acc: 0.10599999874830246
+* e: 1, b: 1000, l: 0.01 => acc: 0.11879999935626984
+* e: 1, b: 500, l: 0.01 => acc: 0.23066666722297668
+* e: 1, b: 300, l: 0.01 => acc: 0.3438666760921478
+* __e: 1, b: 50, l: 0.01 => acc: 0.6743999719619751__
+
+#### Learning Rate:
+* __e: 1, b: 100, l: 0.8 => acc: 0.7642666697502136__
+* e: 1, b: 100, l: 0.5 => acc: 0.7498666644096375
+* e: 1, b: 100, l: 0.1 => acc: 0.7444000244140625
+* e: 1, b: 100, l: 0.05 => acc: 0.7179999947547913
+* e: 1, b: 100, l: 0.01 => acc: 0.5533333420753479
+
+#### Epochs:
+* e: 1, b: 100, l: 0.2 => acc: 0.765999972820282
+* e: 2, b: 100, l: 0.2 => acc: 0.7713333368301392
+* e: 3, b: 100, l: 0.2 => acc: 0.7807999849319458
+* __e: 4, b: 100, l: 0.2 => acc: 0.7830666899681091__
+* e: 5, b: 100, l: 0.2 => acc: 0.7774666547775269
+
+Chosen Configuration:
+__epochs: 4, batch_size: 50, learning_rate: 0.8__
+
 ## Windows Instructions
 #### Install Docker
 If you don't have Docker already, download and install Docker from [here](https://docs.docker.com/engine/installation/windows/).
