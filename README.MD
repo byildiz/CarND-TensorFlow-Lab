@@ -30,6 +30,7 @@ We've prepared a Jupyter notebook that will guide you through the process of cre
 
 Chosen Configuration:
 __epochs: 4, batch_size: 50, learning_rate: 0.8__
+![Selected Configuration](./graphs/conf_e4_b50_l0.8.png)
 
 ## Windows Instructions
 #### Install Docker
